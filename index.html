@@ -4,15 +4,32 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Namaste React by Akshay Saini</title>
+        <link rel="stylesheet" href="./style.css" />
     </head>
 
     <body>
         <div id="root"></div>
-        <script>
+
+        <!-- Rreact CDN Links -->
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <!-- <script>
             let heading = document.createElement("h1");
             heading.innerHTML = "Namaste React course by Akshay Saini.";
             let root = document.getElementById("root");
             root.appendChild(heading);
+        </script> -->
+
+        <script>
+            const heading = React.createElement(
+                "h1", // type: Type of HTML element.
+                { title: "this is React you know?", id: "heading" }, // props: Attributes of HTML element.
+                "Namaste Akshay from React.", //...children: It is optional, you can add as many as you can.
+            );
+
+            const root = ReactDOM.createRoot(document.getElementById("root"));
+
+            root.render(heading);
         </script>
     </body>
 </html>
