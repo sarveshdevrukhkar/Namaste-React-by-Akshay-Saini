@@ -7,8 +7,12 @@
     </head>
 
     <body>
-        <div id="root">
-            <h1>Namaste React using HTML.</h1>
-        </div>
+        <div id="root"></div>
+        <script>
+            let heading = document.createElement("h1");
+            heading.innerHTML = "Namaste React course by Akshay Saini.";
+            let root = document.getElementById("root");
+            root.appendChild(heading);
+        </script>
     </body>
 </html>
