@@ -1,0 +1,29 @@
+{
+  "name": "namaste-react-by-akshay-saini",
+  "version": "1.0.0",
+  "description": "It is the package of course Namaste React by Akshay Saini.",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAD0XER/Namaste-React-by-Akshay-Saini.git"
+  },
+  "keywords": [],
+  "author": "Sarvesh Devrukhkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SAD0XER/Namaste-React-by-Akshay-Saini/issues"
+  },
+  "homepage": "https://github.com/SAD0XER/Namaste-React-by-Akshay-Saini#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "browserslist": [
+    "last 100 versions"
+  ]
+}
