@@ -48,9 +48,11 @@
         display: flex;
         flex-wrap: wrap;
 
+        /* Restaurant Card Style */
         .restaurant-card {
             margin: 0.5rem;
             padding: 0.5rem;
+            background-color: #f0f0f0;
 
             &:hover {
                 border: 0.1rem solid #ccc;
