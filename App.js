@@ -1,19 +1,15 @@
 import ReactDOM from "react-dom/client";
 
-const id = "123456";
+const React = () => <code>This is React Component.</code>;
 
-// React Element Example.
-const button = (
-	<button>{id} :- This is React Element inside React Element.</button>
-);
-
-// * React Component Example.
+// * Different Methods to render React Component.
 function ReactComponent() {
 	return (
 		<div>
-			<strong>Writing React Element inside React Component:</strong>
-			<p>{button}</p>
-			<p>The button above is a React Element.</p>
+			<strong>Different Methods/ways to render React Component:</strong>
+			<p>Method 1: {"{React()}"}</p> {React()}
+			<p>Method 2: {"<React />"}</p> <React />
+			<p>Method 3: {"<React></React>"}</p> <React></React>
 		</div>
 	);
 }
