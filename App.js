@@ -6,6 +6,7 @@ const React = () => <code>This is React Component.</code>;
 function ReactComponent() {
 	return (
 		<div>
+			<h1>Episode 03: Laying the Foundation.</h1>
 			<strong>Different Methods/ways to render React Component:</strong>
 			<p>Method 1: {"{React()}"}</p> {React()}
 			<p>Method 2: {"<React />"}</p> <React />
